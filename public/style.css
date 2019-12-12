@@ -1,0 +1,205 @@
+.carousel {
+    background: rgb(128, 38, 38);
+    color: white;
+    text-shadow: 1px 1px 10px #000;
+}
+
+button {
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    transition: 0.5s ease-in-out;
+}
+
+.display-2 {
+    font-size: 400%;
+}
+
+.display-4 {
+    transition: 1s ease-in-out;
+}
+
+.display-4:hover {
+    color: rgba(247, 141, 2, 0.993);
+    transition: 1s ease-in-out;
+}
+
+.navbar-brand:hover img {
+    opacity: 0.5;
+    transition: 1s ease-in-out;
+}
+
+.navbar-brand img {
+    transition: 1s ease-in-out;
+}
+
+.carousel-item {
+    height: 90vh;
+}
+
+.carousel-inner img {
+    box-shadow: 1px 1px 10px black;
+    border: 1px solid black;
+    max-width: 100%;
+    transition: 1s ease-in-out;
+}
+
+.carousel-inner {
+    transition: 1s ease-in-out;
+}
+
+.carousel-inner:hover img{
+    opacity: 0.7;
+    transition: 1s ease-in-out;
+}
+
+.carousel-inner:hover .carousel-caption{
+    transition: 1s ease-in-out;
+    text-shadow: 1px 1px 10px white;
+    color: black;
+}
+
+.carousel-caption {
+    text-shadow: 1px 1px 10px #000;
+    transition: 1s ease-in-out;
+}
+
+.carousel-caption .display-4 {
+    color: black;
+}
+
+.carousel-caption h5 {
+    color: black;
+}
+
+.card {
+    max-width: 500px;
+}
+
+.carousel-item {
+    color: white;
+}
+
+.jumbotron {
+    background: black;
+    color: white;
+}
+
+body {
+    background: black;
+    color: lightgray;
+}
+
+.logo {
+    background: rgb(128, 38, 38);
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+
+.nav-link img {
+    transition: 0.5s ease-in-out;
+}
+
+.nav-link:hover img {
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-link {
+    transition: 0.5s ease-in-out;
+}
+
+/*
+.display-2 {
+    border-top: 2px solid rgba(128, 38, 38, 1);
+    border-bottom: 2px solid rgba(128, 38, 38, 1);
+    background: rgba(128, 38, 38, 0.5);
+}
+
+.display-2:hover {
+    background: rgba(128, 38, 38, 1);
+}
+
+*/
+
+li {
+    list-style: none;
+}
+
+.whiteline {
+    width: 30%;
+    background: rgba(247, 141, 2, 0.993);
+    height: 2px;
+    align-self: center;
+    display: inline-block;
+}
+
+.cus1 {
+    border-top: 2px solid rgba(247, 141, 2, 0.993); 
+    border-bottom: 2px solid rgba(247, 141, 2, 0.993); 
+    max-width: 90%;
+    align-self: center; 
+    padding: 20px; 
+    display: inline-block; 
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+
+}
+
+.container1 {                                         
+    margin-left: 70px; 
+    font-weight: bold ; 
+    float: left; 
+    clear: left; 
+    width: 200px; 
+    text-align: left; 
+    margin-right: 10px; 
+    font-family:sans-serif,bold, Arial, Helvetica; 
+    font-size:14px; 
+} 
+   
+.container2 {  
+    box-sizing: border-box; 
+    width: 100%; 
+    border: 5px solid rgb(14, 13, 13); 
+    float: left; 
+    align-content: center; 
+    align-items: center; 
+} 
+   
+form {                                         
+    margin: 0 auto;
+    width: 300px;
+    background:#f9f9f9;
+    float: center;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid silver;
+    color: black;
+}
+
+.val {
+	-webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+    font-size: 14pt;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 200px;
+    width: 275px;
+}
